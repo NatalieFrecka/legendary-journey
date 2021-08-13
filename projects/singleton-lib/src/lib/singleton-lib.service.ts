@@ -7,12 +7,7 @@ export class SingletonLibService {
   constructor(private _sessionStore: SessionStore) {
   }
 
-  public makeQuery(): void {
-    console.log('I\'m making a query');
-    console.log('Here\'s my store', this._sessionStore);
-  }
-
   public updateUserName(newName: string) {
-    this._sessionStore.update({ name: newName });
+    this._sessionStore.update({name: newName});
   }
 }
