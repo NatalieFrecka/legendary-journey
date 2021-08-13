@@ -2,6 +2,9 @@ I followed [this](https://medium.com/disney-streaming/combining-multiple-angular
 
 To run:
 
-`ng build singleton-lib`
+```
+  ng build singleton-lib --watch 
+  ng serve --project="parent-app"
+```
 
-`ng serve --project="parent-app"`
+Edit lib to your heart's content and it will reload
