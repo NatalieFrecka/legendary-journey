@@ -7,4 +7,4 @@ To run:
   ng serve --project="parent-app"
 ```
 
-Edit lib to your heart's content and it will reload
+Edit lib to your heart's content, and it will reload

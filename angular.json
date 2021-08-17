@@ -347,5 +347,5 @@
       }
     }
   },
-  "defaultProject": "first-app"
+  "defaultProject": "parent-app"
 }
