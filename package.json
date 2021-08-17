@@ -8,7 +8,7 @@
     "build:prod": "ng build --configuration production --aot",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist/parent-app"
   },
   "private": true,
   "dependencies": {
