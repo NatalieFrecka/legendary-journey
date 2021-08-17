@@ -1,6 +1,0 @@
-/*
- * Public API Surface of singleton-lib
- */
-export * from './lib/singleton-lib.service';
-export * from './lib/singleton-lib.module';
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibGlicy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL3NpbmdsZXRvbi1saWIvc3JjL2xpYnMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0dBRUc7QUFFSCxjQUFjLDZCQUE2QixDQUFDO0FBQzVDLGNBQWMsNEJBQTRCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIHNpbmdsZXRvbi1saWJcbiAqL1xuXG5leHBvcnQgKiBmcm9tICcuL2xpYi9zaW5nbGV0b24tbGliLnNlcnZpY2UnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvc2luZ2xldG9uLWxpYi5tb2R1bGUnO1xuIl19
