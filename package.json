@@ -5,7 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:prod": "ng build --configuration production --aot",
+    "build:prod": "ng build --configuration production --aot --base-href",
+    "build:gh-pages": "ng build --configuration production --aot --base-href \"https://NatalieFrecka.github.io/legendary-journey/\"",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "deploy": "gh-pages -d dist/parent-app"
