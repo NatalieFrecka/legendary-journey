@@ -8,10 +8,9 @@
     "build:lib": "ng build singleton-lib",
     "build:lib:prod": "ng build singleton-lib --configuration production",
     "build:prod": "ng build --configuration production --aot",
-    "build:gh-pages": "ng build --configuration production --aot --base-href \"https://NatalieFrecka.github.io/legendary-journey/\" && ./scripts/copyIndex.sh",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "gh-pages -d dist/parent-app"
+    "deploy": "ng build --configuration production --aot --base-href \"https://NatalieFrecka.github.io/legendary-journey/\" && ./scripts/copyIndex.sh && gh-pages -d dist/parent-app"
   },
   "private": true,
   "dependencies": {
