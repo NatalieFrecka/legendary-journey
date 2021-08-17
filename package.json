@@ -4,9 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
     "build:lib": "ng build singleton-lib",
+    "build:lib:watch": "ng build singleton-lib --watch",
     "build:lib:prod": "ng build singleton-lib --configuration production",
+    "build": "ng build",
     "build:prod": "ng build --configuration production --aot",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
