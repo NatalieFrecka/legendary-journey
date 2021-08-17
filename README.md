@@ -4,7 +4,7 @@ To run:
 
 ```
   ng build singleton-lib --watch 
-  ng serve"
+  ng serve
 ```
 
 Edit lib to your heart's content, and it will reload
